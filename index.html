@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhanshu Ranjan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b38679e53.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo5.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    
+                </ul> 
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer, Cloud Computing Expert</p>
+                <h1>Hi, I'm <span>Sudhanshu</span> Ranjan<span id="element"></span> <br> From Patna, India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/small.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Sudhanshu Ranjan an undergraduate, experienced Front-end Developer from Vellore Institute of Technology
+                         skilled in developing user-friendly 
+                        websites and applications. Adept in working with drones and pressurised situations. 
+                        
+                       <br> In addition, I am highly skilled in Technical Writing, currently learning Cloud Computing and making projects 
+                       the field of Web Development.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Making Robust and scalable Web Application</li>
+                            <li><span>Cloud Computing</span><br>Practicing on Google and AWS Cloud Services</li>
+                            <li><span>Photographer</span><br>Take pictures of street/objects and aesthetic portraits</li>
+                            <li><span>Photo Editor</span><br>Edit photos using Photoscape/Adobe Snapseed</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Ongoing</span><br>Open Source Contributer @Girl Script Summer Of Code</li>
+                            <li><span>2022 (May-Oct)</span><br>Software Engineer Intern @Accenture</li>
+                            <li><span>2020</span><br>Lorem Ipsium</li>
+                            <li><span>2020</span><br>Lorem Ipsium</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-Ongoing(Graduation (CSE)) 8.4 CGPA</span><br>VIT Bhopal University</li>
+                            <li><span>2018(12<superscript>th 71.2%</superscript>)</span><br>Himalayan Public School 
+                            </li>
+                            <li><span>2016(10<superscript>th 94%</superscript>)</span><br>Himalayan Public School 
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Experience------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Making robust and scalable web application. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <h2>Cloud Computing Expert </h2>
+                    <p>Practicing on Google and AWS Cloud Services </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Photo Editing</h2>
+                    <p>Edit photos using professional softwares. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ................portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Weather Application </h3><p>With the help of an API, the app dynamically fetches weather data based on the user's location.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                   
+                    
+
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Covid-19 Awareness Website   </h3><p>: The website created is focused on providing information and updates about the coronavirus pandemic, including statistics, prevention measures, and resources for those affected. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>STEG TOOL </h3><p>Using Python 3 and Tkinter with a GUI interface to encrypt images using the LSB technique and a user-defined password.  </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="btn">See more </a>
+        </div>
+    </div>
+    <!-- ----contact------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sranjan.education@gmail.com</p>
+                    <p> <i class="fa-sharp fa-solid fa-phone"></i>+91 9511518782</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sudhanshu-ranjan-7a3305216/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:sranjan.education@gmail.com"><i class="fa-solid fa-envelope-circle-check"></i></a>
+                    </div>
+                    <a href="images/CV.pdf"  download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class ="btn btn2"> Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with ❤️ by Sudhanshu</p>
+        </div>
+    </div>s
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+
+        function openmenu(){
+sidemenu.style.right="0";
+        }
+        function closemenu(){
+sidemenu.style.right="-200px";
+        }
+ </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwZldHLb1fQW7F6I6FXpK7x81_gdhM5Zyw-eOKbHhhePCMZegJwWfeVBClWUdZZfQzO/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+ <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' <i>Technical</i> Writer','<i> Java</i> Developer','<i>Web </i> Developer',  ],
+            typeSpeed: 70,
+            backSpeed:60,
+            loop:true
+            
+        });
+        
+       
+    </script>
+</body>
+
+</html>
