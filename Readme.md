@@ -36,4 +36,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
 
 ## Contact
-If you have any questions, you can reach me at your-email@example.com. Thank you for your interest and visiting my portfolio!
+If you have any questions, you can reach me at- sranjan.education@gmail.com. Thank you for your interest and visiting my portfolio!
