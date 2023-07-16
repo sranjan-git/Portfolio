@@ -20,12 +20,6 @@ The purpose of this project is to provide an online platform where I can showcas
 - **About Me:** The "About Me" section provides a brief introduction to who I am, my background, and my career objectives.
 - **Contact Information:** Visitors can easily find my contact information, enabling them to reach out to me for inquiries, collaborations, or job opportunities.
 
-## Installation
-To run this portfolio locally, follow these steps:
-1. Clone the repository: `git clone https://github.com/sranjan-git/your-portfolio.git`
-2. Navigate to the project directory: `cd your-portfolio`
-3. Open the `index.html` file in your preferred web browser.
-
 ## Usage
 Feel free to explore the portfolio and use it as a reference for creating your own. You can customize the design, layout, and content to suit your personal preferences and professional needs. Modify the HTML, CSS, and JavaScript files as required and add your own projects, skills, and experiences.
 
