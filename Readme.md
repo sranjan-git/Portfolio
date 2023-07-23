@@ -11,7 +11,7 @@ This repository contains the code for my personal portfolio website, which showc
 - [License](#license)
 
 ## Introduction
-The purpose of this project is to provide an online platform where I can showcase my work and skills to potential employers, clients, or collaborators. It serves as a digital representation of my professional identity and acts as a central hub for accessing my projects and learning more about me.
+The purpose of this project is to provide an online platform where I can showcase my work and skills to potential employers, clients, or collaborators. 
 
 ## Features
 - **Responsive Design:** The portfolio is designed to be fully responsive and optimized for various screen sizes and devices, ensuring a seamless user experience.
