@@ -1,4 +1,4 @@
-# Portfolio README
+# README
 
 This repository contains the code for my personal portfolio website, which showcases my projects, skills, and experiences. The portfolio is built using HTML, CSS, and JavaScript. 
 
