@@ -14,7 +14,7 @@ This repository contains the code for my personal portfolio website, which showc
 The purpose of this project is to provide an online platform where I can showcase my work and skills to potential employers, clients, or collaborators. 
 
 ## Features
-- **Responsive Design:** The portfolio is designed to be fully responsive and optimized for various screen sizes and devices, ensuring a seamless user experience.
+- Responsive Design: The portfolio is designed to be fully responsive and optimized for various screen sizes and devices, ensuring a seamless user experience.
 - **Project Showcase:** It includes a dedicated section to showcase my projects, with descriptions, images, and links to their respective repositories or live demos.
 - **Skills and Expertise:** The portfolio highlights my key skills and areas of expertise, allowing visitors to quickly grasp my abilities and technical proficiencies.
 - **About Me:** The "About Me" section provides a brief introduction to who I am, my background, and my career objectives.
